@@ -34,7 +34,7 @@ const education: EducationItem[] = [
     location: "Shanghai, China",
     degree: "Master of Engineering in Mechanical Engineering",
     period: "Sep 2020 — Jun 2023",
-    grade: "GPA: 89.7/100 (top 10%)",
+    grade: "89.7/100 · Top 10%",
     courses: [
       "Numerical Methods",
       "Mechatronics System Engineering",
@@ -47,7 +47,7 @@ const education: EducationItem[] = [
     degree:
       "Bachelor of Engineering in Mechanical Design, Manufacturing and Automation",
     period: "Sep 2015 — Jun 2019",
-    grade: "GPA: 85.3/100 (top 5%)",
+    grade: "85.3/100 · Top 5%",
     courses: [
       "Advanced Mathematics",
       "Linear Algebra",
@@ -247,9 +247,6 @@ export default function Home() {
 
           <div id="top" className="grid gap-10 pt-16 lg:grid-cols-[1fr_17rem] lg:gap-16 lg:pt-24">
             <div>
-              <p className="mb-5 text-sm font-bold uppercase tracking-[0.18em] text-[var(--accent)]">
-                Academic homepage
-              </p>
               <h1 className="serif text-balance text-5xl font-normal leading-[1.03] tracking-[-0.035em] text-[var(--ink)] sm:text-6xl lg:text-7xl">
                 Xianhua Cai
               </h1>
@@ -559,4 +556,3 @@ export default function Home() {
     </div>
   );
 }
-
