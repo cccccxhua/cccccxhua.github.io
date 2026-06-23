@@ -301,14 +301,14 @@ export default function Home() {
               <SectionHeading id="about" eyebrow="Profile" title="About" />
               <div className="max-w-3xl space-y-5 text-[1.03rem] leading-8 text-[var(--muted)]">
                 <p>
-                  Xianhua Cai is an engineer specializing in data-driven
+                  I am an engineer specializing in data-driven
                   optimization and intelligent diagnosis for complex
-                  engineering systems. His experience includes applying
+                  engineering systems. My experience includes applying
                   multi-objective optimization algorithms and deep learning
                   models to large-scale industrial datasets.
                 </p>
                 <p>
-                  His background spans manufacturing systems, signal-based
+                  My background spans manufacturing systems, signal-based
                   fault detection, and system-level implementation, with
                   interests in predictive maintenance, industrial AI, and
                   engineering process optimization.
