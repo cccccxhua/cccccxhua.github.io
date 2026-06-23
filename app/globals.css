@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #172033;
+  --muted: #5d6677;
+  --line: #dfe3e8;
+  --accent: #244b78;
+  --accent-soft: #eef3f8;
+  --paper: #ffffff;
+  --wash: #f7f8fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family:
+    Arial,
+    "Helvetica Neue",
+    Helvetica,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #dce8f4;
+  color: var(--ink);
+}
+
+a {
+  color: inherit;
+}
+
+.serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.section-anchor {
+  scroll-margin-top: 5rem;
+}
+
+.academic-link {
+  text-decoration-color: #9db2c9;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.academic-link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
